@@ -2,7 +2,7 @@ package domain;
 
 import java.time.YearMonth;
 
-public class TeslaSales {
+public class Sales {
 
     private final YearMonth yearMonth;
 
@@ -10,7 +10,7 @@ public class TeslaSales {
 
     //all Sales reports' data are final, can not be changed, don't need setter.
 
-    public TeslaSales(YearMonth yearMonth, Integer salesAmount) {
+    public Sales(YearMonth yearMonth, Integer salesAmount) {
         this.yearMonth = yearMonth;
         this.salesAmount = salesAmount;
     }
